@@ -1,5 +1,6 @@
 package Objetos3;
 
+//Variable
 public class Alarma {
   private String horaAlarma;
   private String horaActual;
