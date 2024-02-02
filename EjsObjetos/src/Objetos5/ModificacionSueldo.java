@@ -3,6 +3,7 @@ package Objetos5;
 public class ModificacionSueldo {
 
 	public static void main(String[] args) {
+		//Creacción de un Objeto(instancia la clase)
 		 Empleado Empleado2 = new Empleado("Mari", 3000.0, 2, 2,0);
          
          //Muestra el sueldo actual

@@ -1,7 +1,7 @@
 package Objetos5;
 import java.util.Date;
 public class Empleado {
-	// Atributos
+	// VARIABLES
 	  private String Nombre;
 	  private double Sueldo;
 	  private Date FechaContrato;
@@ -13,27 +13,27 @@ public class Empleado {
 		  this.FechaContrato = new Date(year - 2000, month - 1, day);
 	  }
 
-	public String dameNombre() {
+	public String dameNombre() {//GETTER
 		return Nombre;
 	}
 
-	public void estableceNombre(String nombre) {
+	public void estableceNombre(String nombre) {//SETTER
 	    Nombre = nombre;
 	}
 
-	public double dameSueldo() {
+	public double dameSueldo() {//GETTER
 		return Sueldo;
 	}
 
-	public void estableceSueldo(double Sueldo) {
+	public void estableceSueldo(double Sueldo) {//SETTER
 		this.Sueldo = Sueldo;
 	}
 
-	public Date dameFechaContrato() {
+	public Date dameFechaContrato() {//GETTER
 		return FechaContrato;
 	}
 
-	public void estableceFechaContrato(Date fechaContrato) {
+	public void estableceFechaContrato(Date fechaContrato) {//SETTER
 		FechaContrato = fechaContrato;
 	}
 
